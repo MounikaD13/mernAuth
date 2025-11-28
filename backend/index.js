@@ -8,7 +8,7 @@ const dashboardRoutes = require("./routes/dashboard.js")
 const cookieParser = require("cookie-parser")
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://mernauth-client-wzll.onrender.com",
     credentials: true,
 }))
 app.use(express.urlencoded({ extended: true }))
